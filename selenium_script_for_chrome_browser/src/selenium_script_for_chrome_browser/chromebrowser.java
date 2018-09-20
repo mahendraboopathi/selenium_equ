@@ -10,7 +10,7 @@ public class chromebrowser {
 
 	public static void main(String[] args) {
 		//chrome driver download to import chrome from google
-		System.setProperty("WebDriver.Chrome.driver", "E://chromedriver");
+		System.setProperty("WebDriver.Chrome.driver", "C:/Users/New/Desktop/chromedriver.exe");
 		ChromeDriver driver= new ChromeDriver();
 		driver.get("http://54.144.210.255:8081/");
 		driver.findElementById("inputEmail3").sendKeys("info@roboapp.com");
